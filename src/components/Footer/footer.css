@@ -1,0 +1,150 @@
+.main_footer{
+    margin-top: 40px;
+    background-color: #2b3148;
+     height: 35px;
+}
+
+.align-items-center{
+    text-align: center;
+    color: white;
+}
+.main_footer2{
+    background-color: #20263c;
+     height: 450px;
+}
+
+.main_footer3{
+    background-color: #131622;
+     height: 200px;
+}
+
+.dec{
+    color: white;
+    
+}
+h6{
+    margin-top: 40px;
+    font-size:14px;
+    font-weight: 700;
+    
+}
+p{
+    margin-top: 8px;
+    font-size:small;
+    color:lavender;
+    font-weight: 500;
+}
+.bord{
+    margin-top: 40px;
+    border: 1px ridge lightslategrey ;
+}
+.centerword{
+    margin-top:25px;
+    font-size: small;
+    font-weight: bold;
+}
+.btn2{
+     margin-top: 30px; 
+    border: 1px solid rgb(141, 141, 148);
+    padding: 8px;
+    background-color: #20263c;
+     margin-left: 20px;
+    border-radius: 4px;
+    color: rgb(141, 141, 148);
+    font-size: small;
+}
+
+.logo2{
+    margin-top: 30px;
+    margin-left: 460px;
+}
+
+.nav_wrapper1{
+    
+    display: flex;
+    align-items: center;
+     justify-content: space-between; 
+     font-size: 12px; 
+     margin-top: 30px;
+     margin-left: 20px;
+     margin-right: 40px;
+}
+.nav_wrapper2{
+    display: flex;
+    align-items: center;
+    font-size: 12px; 
+    margin-top: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.foot_wrapper{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.foot_wrapper1{
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+
+ @media only screen and (max-width: 768px){
+    h6{
+        margin-top: 10px;
+        font-size:10px;
+        font-weight: 700;
+        
+    } 
+    .logo2{
+        margin-top: 10px;
+         ;
+    }
+    .btn2{
+        margin-top: 0px; 
+         /* margin-left: 300px; */
+         
+    }
+    .main_footer2{
+        background-color: #20263c;
+         height: 800px;
+    }
+    
+    
+} 
+
+@media only screen and (min-width: 768px) {
+    h6{
+        margin-top: 10px;
+        font-size:14px;
+        font-weight: 700;
+        
+    } 
+  /* .rowinline{
+    display: flex
+  } */
+  .main_footer2{
+    background-color: #20263c;
+     height: 800px;
+}
+
+.logo2{
+    margin-top: 0px;
+     ;
+}
+.btn2{
+    margin-top: 0px;  
+     /* margin-left: 300px; */
+     
+}
+  
+}
+@media only screen and (min-width: 992px) {
+.logo2{
+    margin-top: 10px;
+    margin-left: 400px;
+}
+.btn2{
+margin-top: 10px;
+}  
+}

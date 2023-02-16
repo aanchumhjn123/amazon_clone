@@ -1,0 +1,47 @@
+.from_group{
+     margin-left: 20px;
+    
+}
+
+.billinfo{
+     margin-top: 20px;
+
+}
+
+.form-control{
+    margin: 15px;
+}
+
+.cartbtn{
+    font-size: small;
+    font-weight:500;
+    margin-left: 2px;
+    /* padding-left: 29px;
+    padding-right: 9px; */
+    padding: 20px;
+    padding: 5px;
+    background-color: rgb(251, 173, 7);
+    border-radius: 10px;
+    border-color: rgb(251, 173, 7);  
+}
+
+.checkout_cart{
+    padding: 20px;
+    background-image: linear-gradient(white,rgb(43, 43, 166));
+    color: #fff;
+    border-radius: 5px;
+}
+
+.checkout_cart h6,h4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.checkout_cart h6{
+    margin-bottom: 20px;
+}
+
+.checkout_cart h4{
+    border-top: 1px solid rgb(221,221,221,0.253);
+    padding-top: 20px;
+}

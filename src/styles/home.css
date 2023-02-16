@@ -1,0 +1,31 @@
+.main_section {
+    background-image: linear-gradient(rgb(170, 192, 205),white, rgb(81, 134, 164), whitesmoke);
+  }
+  
+  .main_img img {
+    height: 400px;
+    width: 400px;
+  }
+  
+
+
+  .buy_now {
+    border: none;
+    border-radius: 4px;
+    background-color: none;
+    color: darkslategray;
+    font-size: large;
+  
+    font-family: sans-serif;
+  }
+  
+  .main_subtitle {
+    margin-top: 90px;
+  }
+  /* .card_width{
+    width: 50%;
+    height: 10%;
+  } */
+
+
+  

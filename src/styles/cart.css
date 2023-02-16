@@ -1,0 +1,34 @@
+.table{
+    margin-top: 40px;
+}
+
+.table tr td img{
+    
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+
+td i{
+    cursor: pointer;
+}
+
+td,th{
+    color: var(--primary-color);
+}
+
+.buy_btn{
+    font-size: small;
+    font-weight:500;
+    margin-left: 2px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding: 5px;
+    background-color: rgb(251, 173, 7);
+    border-radius: 10px;
+    border-color: rgb(251, 173, 7);   
+}
+
+.text-color{
+    color: rgb(14, 138, 200);
+}
